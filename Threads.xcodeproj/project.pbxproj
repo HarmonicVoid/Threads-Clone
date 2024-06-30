@@ -21,6 +21,8 @@
 		7119A7352C2F7DE0005229C3 /* CreateThreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7119A7342C2F7DE0005229C3 /* CreateThreadView.swift */; };
 		7119A7392C2F7E5D005229C3 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7119A7382C2F7E5D005229C3 /* ActivityView.swift */; };
 		7119A73D2C2F7EBF005229C3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7119A73C2C2F7EBF005229C3 /* ProfileView.swift */; };
+		7119A73F2C321C7D005229C3 /* ThreadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7119A73E2C321C7D005229C3 /* ThreadCell.swift */; };
+		7119A7412C321DE5005229C3 /* Max_Verstappen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7119A7402C321DE5005229C3 /* Max_Verstappen.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		7119A7342C2F7DE0005229C3 /* CreateThreadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateThreadView.swift; sourceTree = "<group>"; };
 		7119A7382C2F7E5D005229C3 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		7119A73C2C2F7EBF005229C3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		7119A73E2C321C7D005229C3 /* ThreadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCell.swift; sourceTree = "<group>"; };
+		7119A7402C321DE5005229C3 /* Max_Verstappen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Max_Verstappen.jpg; path = ../../../../../Downloads/Max_Verstappen.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,7 @@
 		7119A71A2C2CCCF8005229C3 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				7119A7402C321DE5005229C3 /* Max_Verstappen.jpg */,
 				7119A7222C2E2FAC005229C3 /* ViewsModifiers */,
 			);
 			path = Utils;
@@ -197,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				7119A72C2C2F7CEA005229C3 /* FeedView.swift */,
+				7119A73E2C321C7D005229C3 /* ThreadCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -323,6 +329,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7119A7412C321DE5005229C3 /* Max_Verstappen.jpg in Resources */,
 				7119A70F2C2CCBB2005229C3 /* Preview Assets.xcassets in Resources */,
 				7119A70C2C2CCBB2005229C3 /* Assets.xcassets in Resources */,
 			);
@@ -343,6 +350,7 @@
 				7119A7262C2E3305005229C3 /* ThreadsButtonModifier.swift in Sources */,
 				7119A7292C2F7654005229C3 /* ThreadsTabView.swift in Sources */,
 				7119A71F2C2CE0B9005229C3 /* LoginView.swift in Sources */,
+				7119A73F2C321C7D005229C3 /* ThreadCell.swift in Sources */,
 				7119A70A2C2CCBB0005229C3 /* ContentView.swift in Sources */,
 				7119A7242C2E3029005229C3 /* ThreadsTextFieldModifier.swift in Sources */,
 				7119A7082C2CCBB0005229C3 /* ThreadsApp.swift in Sources */,
