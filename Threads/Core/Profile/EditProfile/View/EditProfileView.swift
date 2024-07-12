@@ -15,11 +15,19 @@ struct EditProfileView: View {
                     .edgesIgnoringSafeArea([.bottom, .horizontal])
                 
                 VStack{
+                    //name and profile image
+                    HStack {
+                        Text("Name")
+                            .fontWeight(.semibold)
+                        
+                        Text("Charles Leclerc")
+                    }
                     
                 }
             }
             .navigationTitle("Edit Profile")
             .navigationBarTitleDisplayMode(.inline)
+            
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button("Cancel") {
